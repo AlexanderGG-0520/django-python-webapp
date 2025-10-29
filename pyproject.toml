@@ -3,6 +3,7 @@ name = "schedule-webapp"
 dynamic = ["version"]
 description = "A Webapp for schedule management"
 readme = "README.md"
+license-files = ["LICENSE"]
 requires-python = ">=3.10"
 dependencies = [
   "django"
@@ -12,13 +13,10 @@ dependencies = [
 name = "AlexanderGG-0520"
 email = "AlexanderGG-0520@users.noreply.github.com"
 
-[project.license]
-file = "LICENSE"
-
 [project.urls]
 Repository = "https://github.com/AlexanderGG-0520/django-python-webapp"
 
 [build-system]
-requires = ["setuptools_scm[toml]>=8.0", "setuptools>=61"]
+requires = ["setuptools_scm[simple]>=8.0", "setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
